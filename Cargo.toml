@@ -2,9 +2,11 @@
 name = "pattern_engine"
 version = "0.1.0"
 edition = "2024"
-description = "Pattern Engine."
+description = "Programming by example for regexes and globs: read example strings, emit the tightest pattern that matches them."
 license = "MIT"
 repository = "https://github.com/dpep/pattern_engine"
+keywords = ["regex", "glob", "pattern", "cli", "inference"]
+categories = ["command-line-utilities"]
 
 # Published as `pattern_engine`; binary ships as `pe`.
 [[bin]]
